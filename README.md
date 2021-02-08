@@ -1,4 +1,4 @@
-![a visual diagram of the application](.\src\img\TWEETER.png\style=center)
+![a visual diagram of the application](./src/img/TWEETER.png/style=center)
 
 
 img[src$="center"] {
