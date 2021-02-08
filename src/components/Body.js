@@ -4,4 +4,12 @@ import Suggestions from "./Suggestions";
 import Profile from "./Profile";
 import About from "./About";
 
-// export default Body;
+function Body(){
+  return (
+    <React.Fragment>
+      <Feed />
+    </React.Fragment>
+  );
+}
+
+export default Body;
