@@ -1,3 +1,11 @@
 import React from "react";
 
-// export default Header;
+function Header() {
+  return (
+    <React.Fragment>
+      <h1>TWEETER</h1>
+    </React.Fragment>
+  );
+}
+
+export default Header;
