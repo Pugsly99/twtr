@@ -13,7 +13,7 @@ function Tweet(props){
 
 Tweet.propTypes = {
   userName: PropTypes.string.isRequired,
-  tweet: PropTypes.string.isRequired
+  tweetBody: PropTypes.string.isRequired
 };
 
 export default Tweet;
