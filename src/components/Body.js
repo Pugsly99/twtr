@@ -4,4 +4,4 @@ import Suggestions from "./Suggestions";
 import Profile from "./Profile";
 import About from "./About";
 
-export default Body;
+// export default Body;
