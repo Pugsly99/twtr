@@ -16,7 +16,7 @@ const tweetList = [
   },
   {
     userName: 'KANYE WEST',
-    tweetBody: 'IM SO HYPE RIGHT NOW  EVERYTHING HAS CHANGED... HAVE TALL EVER SEEN TRON? THE END OF TRON WHERE EVERYTHING LIGHT UP!!!!'
+    tweetBody: 'IM SO HYPE RIGHT NOW  EVERYTHING HAS CHANGED... HAVE YALL EVER SEEN TRON? THE END OF TRON WHERE EVERYTHING LIGHT UP!!!!'
   },
   {
     userName: 'Sweatpants Cher',
@@ -30,7 +30,7 @@ function Feed() {
       <hr/>
       {tweetList.map((tweet, index) =>
         <Tweet userName={tweet.userName}
-          tweet={tweet.tweetBody}
+          tweetBody={tweet.tweetBody}
           key={index} />
       )}
     </React.Fragment>
